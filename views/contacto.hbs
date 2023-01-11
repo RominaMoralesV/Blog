@@ -1,0 +1,40 @@
+            
+        <!-- Titulo de la pagina Contacto -->
+        <h1>¡Inspírate para tu próxima aventura!</h1>
+        <h2>Recibe las últimas novedades del blog de viajes.</h2>
+        <h3>Dejame tus datos y comentarios. Podemos armar juntos un recorrido o simplemente podes recibir mis tips y rutas de viaje 
+          para la proxima aventura!
+        </h3>
+        <hr>
+
+    
+      <!-- Formulario de Contacto -->
+    
+    <div class="container m-5" id="fuente-contacto">
+    <form action="/contacto.hbs" method="post">
+      <div class="mb-3">
+        <label for="nombre" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="nombre" name="nombre" required>
+      </div>
+    
+      <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" name="email" required>
+      </div>
+    
+    
+      <div class="mb-3">
+        <label for="comentario" class="form-label">Comentarios</label>
+        <textarea class="form-control" id="comentario" name="comentario" rows="3"></textarea>
+      </div>
+
+
+      <div class="mb-3 text-center">
+      <button type="submit" class="btn btn-outline-dark w-75">Enviar</button>
+      </div>
+    
+    </form>
+    </div>
+
+
+
